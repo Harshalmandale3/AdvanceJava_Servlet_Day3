@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Calculator</title>
+
+<style type="text/css">
+body {
+	background-color: rgb(226, 215, 200);
+}
+form {
+	Margin-top: 13%;
+	background-color:paleturquoise;
+	
+	padding-top: 10px;
+	width: 35%;
+	padding-bottom: 20px;
+	border-radius: 15px;
+	font-size: 22px;
+}
+.ps,.sp{
+	Width:110px;
+	height:40px;
+	font-size: 22px;
+	
+}
+.btn1,.btn2,.btn3,.btn4{
+	Width:90px;
+	height:45px;
+	margin-left:15px;
+	margin-right:15px;
+	color:whitesmoke;
+	background-color:cornflowerblue;
+	cursor: pointer;
+	font-size: 18px;
+	border:none;
+	border-radius:8px;
+}
+</style>
+
+
+</head>
+<body>
+<center>
+<form action="cal" method="post">
+<h1>Calculator</h1>
+<input type="number" name="fnum" class="ps"><br/><br/>
+<input type="number" name="snum" class="sp"><br/><br/>
+<input type="submit" value="Addition" name="opp" class="btn1">
+<input type="submit" value="Substract" name="opp" class="btn2">
+<input type="submit" value="Multiple" name="opp" class="btn3">
+<input type="submit" value="Division" name="opp" class="btn4">
+</center>
+</form>
+
+</body>
+</html>
